@@ -1,0 +1,14 @@
+*{
+    /* font-family: "Amazon Ember",Arial,sans-serif; */
+    font-family: 'Roboto', sans-serif;
+       /* overflow-x: hidden;    */
+      
+       
+}
+
+@media (max-width:800px)
+{
+    *{
+        overflow-x: hidden;
+    }
+}

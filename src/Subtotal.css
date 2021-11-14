@@ -1,0 +1,57 @@
+.sumtotal{
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: column;
+   justify-content: space-between;
+   
+   height: 130px;
+   width:300px;
+   padding: 10px;
+   background-color: white;
+   border-radius: 4px;
+   
+}
+p{
+    font-size: 20px;
+}
+.check{
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+}
+.cartbt{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    cursor: pointer;
+    height:30px;
+    width:100%;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+
+
+}
+.cartbt:hover{
+background-color: #f7d172;
+}
+
+@media (max-width:600px)
+{
+    p{
+        font-size: 17px;
+    }
+    .check{
+        font-size: 13px;
+    }
+    .cartbt{
+        height: 25px;
+    }
+    .sumtotal{
+        width:220px;
+    }
+}
+@media (max-width:460px)
+{
+    .sumtotal{
+        width:100vw;
+    }
+}

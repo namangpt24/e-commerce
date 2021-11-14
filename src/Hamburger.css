@@ -1,0 +1,23 @@
+.hamdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232F3E;
+    width: 98.5vw;
+}
+
+.hamsign{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.hama{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 14px;
+    font-size: 17px;
+    font-weight: bold;
+}

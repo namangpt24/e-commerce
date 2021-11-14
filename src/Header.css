@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header2{
+    display: none;
+}
+.header{
+    display:flex;
+    background-color: #232F3E;
+    height:60px;
+    position:sticky;
+    z-index:10;
+    top:0px;
+    width: 100%;
+    min-width: 98.9vw;
+
+}
+.headimg{
+    
+    width:100px;
+    margin: 0px 7px;
+    margin-top: 16px;
+   object-fit: contain; /*maintains the aspect ratio*/
+    
+}
+.headersearch{
+    margin:10px 15px;
+    margin-top:16px;
+    width:500px;
+    display: flex;
+    flex:1;
+    border-radius: 10px;
+}
+.searchinput{
+    width:100%;
+    height:32px; 
+    border: none;
+    
+}
+.headerbt{
+  width:40px;
+  /* height:30px; */
+  background-color:#cd9042;
+  cursor: pointer;
+  padding:4px;
+  
+}
+.headernav{
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+}
+.navoption{
+    margin:0px 10px;
+    margin-top:14px;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+.upper_navoption{
+    font-size: 13px;
+    text-decoration: none;
+    
+}
+
+.lower_navoption{
+    font-size: 15px;
+    font-weight: 700;
+}
+.cartt{
+    color:white;
+    display:flex;
+    margin:15px 10px;
+    align-items: center;
+    
+}
+.cartcount{
+    margin:0px 6px;
+}
+.headernav a{
+    text-decoration: none;
+}
+.header a{
+    text-decoration: none;
+}
+.menuclass{
+    display: none;
+}
+.header2{
+    display: none;
+}
+@media (max-width:600px)
+{
+    .header2{
+    display:flex;
+    background-color: #232F3E;
+    height:36px;
+    position:sticky;
+    z-index:10;
+    top:0px;
+    width: 100vw;
+    justify-content: center;
+    }
+    .headersearch2{
+        width: 95%;
+        display: flex;
+        border-radius: 10px;
+
+    }
+    .searchinput2{
+        width:100%;
+    height:32px; 
+    border: none;
+    
+    }
+    .headerbt2{
+        width:40px;
+  /* height:30px; */
+  background-color:#cd9042;
+  cursor: pointer;
+  padding:4px;
+    }
+    .headersearch{
+        
+        display: none;
+    }
+    .menuclass{
+        display: flex;
+        margin: 14px 10px;
+        border: 1px solid white;
+        align-items: center;
+        height: 25px;
+        border-radius: 7px;
+        cursor: pointer;
+        color: white;
+        position:absolute;
+        left: 2%;
+    }
+    .headernav{
+        display: none;
+    }
+    .cartt{
+        position: absolute;
+        right: 2%;
+        top: 2%;
+    }
+    .header{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    
+}
+@media (max-width:410px)
+{
+ 
+}
